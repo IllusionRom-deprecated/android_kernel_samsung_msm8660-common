@@ -424,6 +424,7 @@ static void lowmem_adj_array_free(void *arg)
 	param_array_ops.free(arg);
 }
 
+>>>>>>> 0bb7d32... staging: android: lowmemorykiller: Add config option to support oom_adj values (yank)
 static struct kernel_param_ops lowmem_adj_array_ops = {
 	.set = lowmem_adj_array_set,
 	.get = lowmem_adj_array_get,
